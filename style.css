@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+nav{
+    background-color: white;
+    width: 100vw;
+    height: 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.facebook-images{
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    /* border: 2px solid rebeccapurple; */
+}
+
+
+.facebook{
+    width: 70px;
+    height: 40px;
+
+}
+nav img{
+    width: 35px;
+    height: 25px;
+}
+
+.search{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 40px;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    
+
+
+}
+
+.search img{
+    width: 30px;
+    height: 20px;
+    margin-left: 20px;
+}
+.search input{
+    outline: none;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    margin-left: 20px;
+}
+
+.middle-part-navbar{
+    /* border: 2px solid red; */
+    width: 40vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-part-navbar a img{
+
+
+}
+
+
+.right-navbar{
+    width: 20vw;
+    align-items: center;
+    /* border: 2px solid gold; */
+    display: flex;
+    justify-content: center;
+    /* justify-content: flex-end; */
+    padding: 10px;
+}
+
+
+.right-navbar .profile{
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+
+
