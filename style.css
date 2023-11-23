@@ -100,4 +100,40 @@ nav img{
 }
 
 
+.sidebar{
+    background: #fff;
+    position: fixed;
+    width: 15px;
+    height: 100vw;
+    top: 0;
+    padding-left:1% ;
+    padding-top: 40px;
+  
+   
+}
+
+
+
+
+.shortcut-links a{
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width:fit-content;
+    border-radius: 10px;
+    transition: .3s;
+    font-size: 20px;
+    color: black;
+   
+}
+.shortcut-links img{
+    margin-right: 15px;
+}
+.shortcut-links a:hover{
+    background-color: #ddd;
+    
+}
+
+
 
