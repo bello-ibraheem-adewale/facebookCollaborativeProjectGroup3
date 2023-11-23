@@ -106,8 +106,9 @@ nav img{
     width: 15px;
     height: 100vw;
     top: 0;
-    padding-left:1% ;
+    padding-left:2% ;
     padding-top: 40px;
+    margin-top: 20px;
   
    
 }
@@ -123,12 +124,14 @@ nav img{
     width:fit-content;
     border-radius: 10px;
     transition: .3s;
-    font-size: 20px;
+    /* font-size: 20px; */
     color: black;
+     margin-bottom: 22px; 
    
 }
 .shortcut-links img{
     margin-right: 15px;
+   
 }
 .shortcut-links a:hover{
     background-color: #ddd;
