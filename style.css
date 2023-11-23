@@ -16,7 +16,6 @@ nav{
     width: 100vw;
     height: 50px;
     z-index: 2;
-    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +29,6 @@ nav{
     display: flex;
     align-items: center;
     width: 30vw;
-    /* border: 2px solid rebeccapurple; */
 }
 
 
@@ -45,7 +43,7 @@ nav img{
 }
 
 .search{
-    background-color: whitesmoke;
+    background-color: azure;
     width: 300px;
     height: 40px;
     align-items: center;
@@ -70,12 +68,34 @@ nav img{
 }
 
 .middle-part-navbar{
-    /* border: 2px solid red; */
-    width: 40vw;
-    align-items: center;
+    width: 50vw;
     display: flex;
     justify-content: space-evenly;
+    
+    
 }
+
+.middle-part-navbar a{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 25px;
+    border-radius: 10px;
+
+}
+
+.middle-part-navbar a:hover {
+    background-color: azure;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 25px;
+    border-radius: 10px;
+}
+
 
 .middle-part-navbar a img{
 
@@ -84,19 +104,47 @@ nav img{
 
 
 .right-navbar{
-    width: 20vw;
+    width: 25vw;
     align-items: center;
     /* border: 2px solid gold; */
     display: flex;
+    height: 50px;
     justify-content: center;
-    /* justify-content: flex-end; */
-    padding: 10px;
+    
+}
+
+.right-navbar a {
+    background-color: azure;
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 
-.right-navbar .profile{
-    width: 50px;
-    height: 45px;
+
+
+.right-navbar  .profile {
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    /* margin-bottom: 60px; */
+    /* margin-left: 40px; */
+    /* border: 2px solid orange; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    align-content: center;
+    
+
+}
+
+.right-navbar  .profile a img {
+    width: 70px;
+    height: 37px;
+    
     border-radius: 50%;
 }
 
