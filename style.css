@@ -101,9 +101,14 @@ nav img{
 }
 
 
-.middle-part-navbar a img{
+.hand{
+    display: none;
 
 
+}
+
+.plus{
+    display: none;
 }
 
 
@@ -157,6 +162,8 @@ nav img{
     flex-direction: row;
 }
 
+/* mr ababass */
+
 
 .sidebar{
     position: fixed;
@@ -178,7 +185,7 @@ nav img{
     text-decoration: none;
     display: flex;
     align-items: center;
-    width:fit-content;
+    width: fit-content;
     border-radius: 10px;
     transition: .3s;
     /* font-size: 20px; */
@@ -202,6 +209,7 @@ nav img{
     margin-top: 4%;
     margin-left: 13%;
     width: 60%;
+    
 }
 
 .Story {
@@ -390,4 +398,67 @@ nav img{
     & img {
         width: 100%;
     }
+}
+
+title{
+    background-color: black;
+    color: gold;
+}
+
+
+/* media query */
+
+@media (max-width: 768px){
+    .middle-part-navbar{
+        display: none;
+        
+    }
+    nav{
+        display: flex;
+        padding: 2px 50px;
+        justify-content: space-between;
+    }
+
+    .search{
+        border-radius: 50%;
+        width: 50px;
+        padding-right: 15px;
+        align-items: center;
+        height: 40px;
+    }
+
+    .Search-icon{
+        display: flex;
+
+    }
+
+    .search input{
+        display: none;
+    }
+
+    .hand{
+        display: flex;
+        margin-left: 40px;
+    }
+
+    .plus{
+        display: flex;
+        padding-bottom: 10px;
+        align-items: center;
+    
+    }
+
+    .ger{
+        display: none;
+    }
+
+
+    .sidebar{
+        display: none;
+    }
+
+
+
+
+
 }
